@@ -11,7 +11,6 @@ pipeline {
 
                stage('Build') {
                     steps {
-
                         git branch: 'main',credentialsId: 'ml_pipeline', url: 'https://github.com/AthaulRai/multi-branch-ml-pipeline.git'
                     }
                 }
